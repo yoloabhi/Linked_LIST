@@ -14,7 +14,7 @@ struct node *root;
 void append()
 { struct node *temp;
 temp=(struct node*)malloc(sizeof(struct node));
-printf("enter the node data at the end of the list: ");
+printf("enter the node data at the end: ");
 scanf("%d",&temp->data);
 temp->link = NULL;
 
